@@ -13,8 +13,8 @@ class Square:
         self.pos = (self.x, self.y)
 
         self.color = 'light' if (x + y) % 2 == 0 else 'dark'
-        self.draw_color = (230, 230, 230) if self.color == 'light' else (25, 25, 25)
-        self.highlight_color = (255, 0, 0)
+        self.draw_color = (223, 213, 211) if self.color == 'light' else (117, 150, 110)
+        self.highlight_color = (255, 100, 100) if self.color == 'light' else (200, 100, 75)
 
         self.occupying_piece = None
         self.coord = self.get_coord()
